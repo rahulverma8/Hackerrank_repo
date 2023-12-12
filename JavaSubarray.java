@@ -10,7 +10,7 @@ public class Solution {
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
         int arr[]=new int[n];
-        
+        //array of size n
         int sum=0,count=0;
         for(int i=0;i<arr.length;i++){
             arr[i] = sc.nextInt();
@@ -23,6 +23,7 @@ public class Solution {
                 if(sum<0) count++;
             }
         }
+
         System.out.println(count);
     }
 }
