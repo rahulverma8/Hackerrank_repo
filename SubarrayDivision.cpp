@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 string ltrim(const string &);
@@ -25,7 +24,6 @@ sum += s.at(j);
 x=j;
 }
 if(sum == d) ++count; 
- 
 }
 }
 return count;
@@ -92,7 +90,6 @@ string rtrim(const string &str) {
 
     return s;
 }
-
 vector<string> split(const string &str) {
     vector<string> tokens;
 
