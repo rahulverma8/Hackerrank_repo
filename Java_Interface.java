@@ -30,7 +30,7 @@ class Solution{
         Class[] theInterfaces = o.getClass().getInterfaces();
         for (int i = 0; i < theInterfaces.length; i++){
             String interfaceName = theInterfaces[i].getName();
-            System.out.println(interfaceName);
+             System.out.println(interfaceName);
         }
     }
 }
