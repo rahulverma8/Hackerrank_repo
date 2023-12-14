@@ -24,5 +24,6 @@ int main()
   cout << p1.name << " ";
   cout << p1.last_name << " ";
   cout << p1.standard << endl ;
+
  return 0;
 }
